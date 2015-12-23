@@ -3,6 +3,7 @@
 	"email": "s.celles@gmail.com",
 	"github_username": "scls19fr",
 	"project_name": "Python Boilerplate",
+	"project_shortname": "{{ cookiecutter.project_name.lower().replace(' ', '-') }}",
 	"project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
 	"project_short_description": "Python Boilerplate contains all the boilerplate you need to create a Python package.",
 	"release_date": "2015-12-23",
