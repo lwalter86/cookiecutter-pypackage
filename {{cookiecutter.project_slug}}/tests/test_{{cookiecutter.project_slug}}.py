@@ -23,4 +23,4 @@ class Test{{ cookiecutter.project_slug|capitalize }}:
 
     def test_000_something(self):
         print("test")
-        assert_equal(1, 2)
+        assert_equal(1, 1)

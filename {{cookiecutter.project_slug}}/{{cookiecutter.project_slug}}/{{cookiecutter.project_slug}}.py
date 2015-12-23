@@ -25,7 +25,7 @@ def add(a, b):
 
 
     >>> add(3, 2)
-    500
+    5
     """
     return a + b
 
