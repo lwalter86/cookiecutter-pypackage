@@ -6,6 +6,7 @@
 	"project_shortname": "{{ cookiecutter.project_name.lower().replace(' ', '-') }}",
 	"project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
 	"project_short_description": "Python Boilerplate contains all the boilerplate you need to create a Python package.",
+	"license": "BSD License",
 	"release_date": "2015-12-23",
 	"pypi_username": "scls",
 	"year": "2015",
