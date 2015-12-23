@@ -3,4 +3,5 @@
 
 from __future__ import absolute_import, division, print_function
 
-from .{{ cookiecutter.project_slug }} import {{ cookiecutter.project_slug }}
+from . import {{ cookiecutter.project_slug }}
+from .version import __version__
