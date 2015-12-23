@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 __author__ = '{{ cookiecutter.full_name }}'
 __copyright__ = 'Copyright (c) {{ cookiecutter.year }} - {{ cookiecutter.full_name }} <{{ cookiecutter.email }}>'
 __license__ = '{{ cookiecutter.license }}'
