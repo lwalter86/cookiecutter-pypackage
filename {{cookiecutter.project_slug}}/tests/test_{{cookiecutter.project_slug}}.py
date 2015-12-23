@@ -8,7 +8,7 @@ test_{{ cookiecutter.project_slug }}
 Tests for `{{ cookiecutter.project_slug }}` module.
 """
 
-from nose.tools import *
+from nose.tools import assert_equal
 
 from {{ cookiecutter.project_slug }} import {{ cookiecutter.project_slug }}
 
