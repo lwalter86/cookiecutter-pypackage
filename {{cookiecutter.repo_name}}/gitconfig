@@ -1,0 +1,16 @@
+[user]
+	name = {{ cookiecutter.github_username }}
+	email = {{ cookiecutter.email }}
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+	ignorecase = true
+	precomposeunicode = true
+[remote "origin"]
+	url = https://{{ cookiecutter.github_username }}@github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.repo_name }}
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "master"]
+	remote = origin
+	merge = refs/heads/master
