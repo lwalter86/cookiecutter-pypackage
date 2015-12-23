@@ -2,39 +2,39 @@
 {{ cookiecutter.project_name }}
 ===============================
 
-.. image:: https://img.shields.io/pypi/v/{{ cookiecutter.project_shortname }}.svg
-        :target: https://pypi.python.org/pypi/{{ cookiecutter.project_shortname }}/
+.. image:: https://img.shields.io/pypi/v/{{ cookiecutter.repo_name }}.svg
+        :target: https://pypi.python.org/pypi/{{ cookiecutter.repo_name }}/
 
-.. image:: https://img.shields.io/pypi/pyversions/{{ cookiecutter.project_shortname }}.svg
-        :target: https://pypi.python.org/pypi/{{ cookiecutter.project_shortname }}/
+.. image:: https://img.shields.io/pypi/pyversions/{{ cookiecutter.repo_name }}.svg
+        :target: https://pypi.python.org/pypi/{{ cookiecutter.repo_name }}/
 
-.. image:: https://img.shields.io/pypi/wheel/{{ cookiecutter.project_shortname }}.svg
-        :target: https://pypi.python.org/pypi/{{ cookiecutter.project_shortname }}/
+.. image:: https://img.shields.io/pypi/wheel/{{ cookiecutter.repo_name }}.svg
+        :target: https://pypi.python.org/pypi/{{ cookiecutter.repo_name }}/
 
-.. image:: https://img.shields.io/pypi/l/{{ cookiecutter.project_shortname }}.svg
-        :target: https://pypi.python.org/pypi/{{ cookiecutter.project_shortname }}/
+.. image:: https://img.shields.io/pypi/l/{{ cookiecutter.repo_name }}.svg
+        :target: https://pypi.python.org/pypi/{{ cookiecutter.repo_name }}/
 
-.. image:: https://img.shields.io/pypi/status/{{ cookiecutter.project_shortname }}.svg
-        :target: https://pypi.python.org/pypi/{{ cookiecutter.project_shortname }}/
+.. image:: https://img.shields.io/pypi/status/{{ cookiecutter.repo_name }}.svg
+        :target: https://pypi.python.org/pypi/{{ cookiecutter.repo_name }}/
 
-.. image:: https://img.shields.io/pypi/dm/{{ cookiecutter.project_shortname }}.svg
-        :target: https://pypi.python.org/pypi/{{ cookiecutter.project_shortname }}/
+.. image:: https://img.shields.io/pypi/dm/{{ cookiecutter.repo_name }}.svg
+        :target: https://pypi.python.org/pypi/{{ cookiecutter.repo_name }}/
 
-.. image:: https://requires.io/github/{{ cookiecutter.github_username }}/{{ cookiecutter.project_shortname }}/requirements.svg?branch=master
-        :target: https://requires.io/github/{{ cookiecutter.github_username }}/{{ cookiecutter.project_shortname }}/requirements/?branch=master
+.. image:: https://requires.io/github/{{ cookiecutter.github_username }}/{{ cookiecutter.repo_name }}/requirements.svg?branch=master
+        :target: https://requires.io/github/{{ cookiecutter.github_username }}/{{ cookiecutter.repo_name }}/requirements/?branch=master
 
-.. image:: https://landscape.io/github/{{ cookiecutter.github_username }}/{{ cookiecutter.project_shortname }}/master/landscape.svg?style=flat
-        :target: https://landscape.io/github/{{ cookiecutter.github_username }}/{{ cookiecutter.project_shortname }}/master
+.. image:: https://landscape.io/github/{{ cookiecutter.github_username }}/{{ cookiecutter.repo_name }}/master/landscape.svg?style=flat
+        :target: https://landscape.io/github/{{ cookiecutter.github_username }}/{{ cookiecutter.repo_name }}/master
 
 .. image:: https://www.codacy.com/project/badge/BADGEID
-        :target: https://www.codacy.com/app/s-celles/{{ cookiecutter.project_shortname }}/
+        :target: https://www.codacy.com/app/s-celles/{{ cookiecutter.repo_name }}/
 
-.. image:: https://readthedocs.org/projects/{{ cookiecutter.project_shortname }}/badge/?version=latest
-        :target: https://readthedocs.org/projects/{{ cookiecutter.project_shortname }}/?badge=latest
+.. image:: https://readthedocs.org/projects/{{ cookiecutter.repo_name }}/badge/?version=latest
+        :target: https://readthedocs.org/projects/{{ cookiecutter.repo_name }}/?badge=latest
         :alt: Documentation Status
 
-.. image:: https://img.shields.io/travis/{{ cookiecutter.github_username }}/{{ cookiecutter.project_shortname }}.svg
-        :target: https://travis-ci.org/{{ cookiecutter.github_username }}/{{ cookiecutter.project_shortname }}/
+.. image:: https://img.shields.io/travis/{{ cookiecutter.github_username }}/{{ cookiecutter.repo_name }}.svg
+        :target: https://travis-ci.org/{{ cookiecutter.github_username }}/{{ cookiecutter.repo_name }}/
 
 
 {{ cookiecutter.project_short_description}}
@@ -68,7 +68,7 @@ You can help to develop this library.
 Issues
 ^^^^^^
 
-You can submit issues using https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.project_shortname }}/issues
+You can submit issues using https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.repo_name }}/issues
 
 Clone
 ^^^^^
@@ -77,7 +77,7 @@ You can clone repository to try to fix issues yourself using:
 
 ::
 
-    $ git clone https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.project_shortname }}.git
+    $ git clone https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.repo_name }}.git
 
 Run unit tests
 ^^^^^^^^^^^^^^
@@ -105,7 +105,7 @@ or
 
 ::
 
-    $ sudo pip install git+https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.project_shortname }}.git
+    $ sudo pip install git+https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.repo_name }}.git
 
 Collaborating
 ^^^^^^^^^^^^^
