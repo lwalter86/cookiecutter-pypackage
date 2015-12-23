@@ -1,5 +1,6 @@
+#!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-__author__ = '{{ cookiecutter.full_name }}'
-__email__ = '{{ cookiecutter.email }}'
-__version__ = '{{ cookiecutter.version }}'
+from __future__ import absolute_import, division, print_function
+
+from .{{ cookiecutter.project_slug }} import {{ cookiecutter.project_slug }}

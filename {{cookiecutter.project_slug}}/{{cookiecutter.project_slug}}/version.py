@@ -1,0 +1,7 @@
+__author__ = '{{ cookiecutter.full_name }}'
+__copyright__ = 'Copyright (c) 2015 - {{ cookiecutter.full_name }} <{ cookiecutter.email }>'
+__license__ = 'BSD License'
+__version__ = '{{ cookiecutter.version }}'
+__email__ = '{{ cookiecutter.email }}'
+__status__ = 'Development'
+__url__ = 'https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}'
