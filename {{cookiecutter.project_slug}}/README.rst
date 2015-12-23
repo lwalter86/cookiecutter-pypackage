@@ -68,7 +68,7 @@ You can help to develop this library.
 Issues
 ^^^^^^
 
-You can submit issues using https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}/issues
+You can submit issues using https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.project_name }}/issues
 
 Clone
 ^^^^^
@@ -77,7 +77,7 @@ You can clone repository to try to fix issues yourself using:
 
 ::
 
-    $ git clone https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}.git
+    $ git clone https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.project_name }}.git
 
 Run unit tests
 ^^^^^^^^^^^^^^
@@ -105,7 +105,7 @@ or
 
 ::
 
-    $ sudo pip install git+https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}.git
+    $ sudo pip install git+https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.project_name }}.git
 
 Collaborating
 ^^^^^^^^^^^^^

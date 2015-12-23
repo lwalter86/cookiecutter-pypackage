@@ -1,5 +1,5 @@
 __author__ = '{{ cookiecutter.full_name }}'
-__copyright__ = 'Copyright (c) 2015 - {{ cookiecutter.full_name }} <{ cookiecutter.email }>'
+__copyright__ = 'Copyright (c) {{ cookiecutter.year }} - {{ cookiecutter.full_name }} <{ cookiecutter.email }>'
 __license__ = 'BSD License'
 __version__ = '{{ cookiecutter.version }}'
 __email__ = '{{ cookiecutter.email }}'
