@@ -83,7 +83,7 @@ setup(
         'Topic :: Database',
 
         # Pick your license as you wish (should match "license" above)
-        'License :: OSI Approved :: BSD License',
+        '{{ cookiecutter.license_classifier }}',
 
     ],
 
