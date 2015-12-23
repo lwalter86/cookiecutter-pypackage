@@ -105,7 +105,7 @@ or
 
 ::
 
-    $ sudo pip install git+https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.project_shortnameproject_shortname }}.git
+    $ sudo pip install git+https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.project_shortname }}.git
 
 Collaborating
 ^^^^^^^^^^^^^
