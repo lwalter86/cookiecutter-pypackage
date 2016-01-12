@@ -1,16 +1,16 @@
 {
-	"full_name": "Sébastien Celles",
-	"email": "s.celles@gmail.com",
-	"github_username": "scls19fr",
+	"full_name": "Lionel Walter",
+	"email": "lionel.walter@univ-poitiers.fr",
+	"github_username": "lwalter86",
 	"project_name": "Python Boilerplate",
 	"repo_name": "{{ cookiecutter.project_name.lower().replace(' ', '-') }}",
 	"project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
 	"project_short_description": "Python Boilerplate contains all the boilerplate you need to create a Python package.",
 	"license_classifier": "License :: OSI Approved :: BSD License",
 	"license": "BSD License",
-	"release_date": "2015-12-23",
-	"pypi_username": "scls",
-	"year": "2015",
+	"release_date": "2016-01-22",
+	"pypi_username": "lwalter86",
+	"year": "2016",
 	"version": "0.0.1",
 	"use_pypi_deployment_with_travis": "y"
 }
