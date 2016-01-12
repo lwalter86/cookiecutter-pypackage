@@ -27,7 +27,7 @@ Quickstart
 
 Generate a Python package project::
 
-    cookiecutter https://github.com/scls19fr/cookiecutter-pypackage.git
+    cookiecutter https://github.com/lwalter86/cookiecutter-pypackage.git
 
 Then:
 
